@@ -17,9 +17,9 @@
     -->
 
     <!-- Header Section -->
-    <header>
+    <header role="banner">
       <h1>My Profile</h1>
-      <nav>
+      <nav role="navigation" aria-label="Main Navigation">
         <ul>
           <li>About Me</li>
           <li>Hobbies</li>
@@ -29,22 +29,24 @@
     </header>
 
     <!-- Main Section -->
-    <main>
+    <main role="main">
       <!-- Bio Section -->
       <section id="about">
         <h2>About Me</h2>
         <figure>
           <img
             src="https://via.placeholder.com/200"
-            alt="Placeholder for Bennet Ukoh profile picture"
+            alt="Placeholder image for Bennet Ukoh profile picture"
           />
           <figcaption>Bennet Ukoh - Web Developer</figcaption>
         </figure>
         <p>
-          My name is Bennet Ukoh and I am a web developer. I enjoy creating
-          websites and web applications. I am passionate about learning new
-          technologies and programming languages. I am always looking for new
-          opportunities to improve my skills and knowledge.
+          My name is Bennet Ukoh and I am a web developer.<br />
+          I enjoy creating websites and web applications.<br />
+          I am passionate about learning new technologies and programming
+          languages.<br />
+          I am always looking for new opportunities to improve my skills and
+          knowledge.
         </p>
       </section>
 
@@ -79,11 +81,13 @@
     </main>
 
     <!-- Footer Section -->
-    <footer id="contact">
-      <small>
+    <footer id="contact" role="contentinfo">
+      <address>
         <p>&copy; 2025 Bennet Ukoh. All rights reserved.</p>
-        <p>Email: bennetukoh@gmail.com</p>
-      </small>
+        <p>
+          Email: <a href="mailto:bennetukoh@gmail.com">bennetukoh@gmail.com</a>
+        </p>
+      </address>
     </footer>
   </body>
 </html>
